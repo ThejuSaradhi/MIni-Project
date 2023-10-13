@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .historical-places {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 2rem;
+    margin:10px;
+    margin-left:100px;
+  }
+  
+  place {
+    width: 300px;
+    margin: 1rem;
+    flex-basis: 33.3333;
+
+  }
+  
+  .place img {
+    width: 100%;
+    height: auto;
+    flex-basis: 33.3333;
+    justify-content: space-between;
+    width:300px;
+    height:300px;
+  }
+  
+  .place h2 {
+    text-align: center;
+  }  
+  ul{
+    font-size:25px;
+    color:crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  footer{
+    text-align:center;
+    padding:15px;
+    background-color:#abbaba;
+    color:#000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+  }
